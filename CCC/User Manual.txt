@@ -1,0 +1,95 @@
+﻿________________
+
+
+
+
+
+
+
+
+
+
+
+
+Crime Calculator Canada
+
+
+USER MANUAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Produced by: Kanza Shams, Israa Sinan, Mark Ciobotaru, Parth Patel
+________________
+Introduction
+
+
+Crime Calculator Canada is a comprehensive program that takes the crime data files from StatsCanada and organizes the information in a way that is relevant and useful for the average user. Furthermore, the program takes information from Canadian census surveys and organizes the data and compares it to the crime data. The purpose of this program is to allow any individual user to compare crime data across Canada, while also allowing the user to compare census data for languages spoken and non-conjugal families with the crime data. This program can provide valuable information to someone who might be looking to relocate their families to a different province, going to school in a different province or transferring jobs. Furthermore, the program can simply be used to satisfy curiosity or aid demographical research.
+
+
+The program starts by displaying five options to the user. Four of the options allow the user to go to the varying programs and the fifth option allows the user to quit and exit the entire program. The program will continue to loop until the user chooses to quit:
+
+
+1. Compare crime data across provinces and through the years
+2. Compare youth and adult crime data across Canada
+3. Compare native and non-native languages across Canada 
+4. Compare family structure (conjugal and non-conjugal families) across Canada
+5. Quit
+
+
+Each of the first 4 options corresponds to the part of the user manual. For example, choosing option 1 leads to the program that will be described in part 1 of the user manual. 
+
+
+Part 1 - Comparing Crime Data Across Provinces and Through the Years
+
+
+The user can press 1 to compare crimes across provinces. At this part of the program the user can select 2 provinces to compare data for, the year they want to compare the data for and the type of crime they want to see data for. First step is to select the two provinces that the user wants to compare data for. There is an option to choose province or Canada as a whole, so it is possible to compare statistics for one province against all of Canada. Second step is to choose the year, most of the data is available for years ranging from 1998 to 2015. Finally, the third step is to choose a crime to see the data for. There are 10 different crimes for which there is data available. The program will print the rate per 100,000 for the specified locations, year and crime and will also print out a message letting the user know which of the two selected locations has a higher crime rate.The second option (when the user presses 2) is used for displaying crime trends for a specified crime throughout the years for the user’s choice of province (or Canada). To start, the user chooses the province they want to see data for. Next, the user can choose one of the ten crimes to graph. The program will output a line graph in a pdf file that displays the graph. This part of the program can provide insight into the changing crime rates throughout the years.
+
+
+________________
+
+
+
+
+Part 2 - Comparing Youth and Adult Crime Data Across Canada 
+
+
+For this section of the program the user will be asked if they want to compare either adult or youth crime between 2 provinces. The program starts off by asking the user to pick the first province, for this case the user actually has the option to either pick Canada as a whole or one of the 13 provinces listed. Once the user has successfully passed this stage the program will ask the user to pick another province. Again the user will have the option to choose Canada as a whole or one of the 13 provinces listed. Once the user tells the program which 2 provinces to compare the program will ask for adult crime data or youth crime data. The next step is asking for the year they wish to view the data for, the available range is from 1998 to 2015. Finally the last step is when the program will ask the user for the type of crime, the user will have 10 different options to pick from. Once all the information is in the program will then go ahead and output the rate per 100,000 for the specified location and crime. The program will also create a file called data.pdf which is a bar graph that shows the information visually. 
+
+
+Part 3- Comparing Native and non-Native Languages 
+
+
+When the user inputs ‘3’ , they will be prompted to enter a number between 1 and 14. The input will correspond to viewing canada’s statistics or each provinces statistics. Next, the user will be prompted to enter if they want to look at  native speakers ‘1’ or non-native speakers ‘2’.   Upon completion of the user prompting, the program will output a csv file that includes a chart showing the information and a pdf file that includes a graph which compares the percentages of Native or non-Native speakers in all provinces and Canada as a whole. 
+
+
+Part 4 - Comparing Familial and Marriage Traits of Census Years
+
+
+If the user inputs ‘4’, the user will be prompted to enter a number between 1 and 4. An input of numbers 1 to 3 correspond to a specific census year (either 2001, 2006, or 2011), while an input of 4 corresponds to a comparison of all census years. Next, the user will be prompted to enter a number between 1 and 5. An input of numbers 1 and 4 correspond to a specific familial trait for the census year or years chosen (% of non-conjugal families with children, % of single parent families with children,% of common law families with children, % of conjugal families with children), whereas an input of 5 corresponds to a comparison of all traits for the census year or years chosen. The last user prompt asks the user whether or not they want to delete the output data that they had selected, and if “Yes” is selected, the csv file that contains the chosen information will be deleted upon completion of the program. Upon completion of the 3 stages of user prompting, the program will output a pdf file based on the user’s selection that contains either a bar graph or a grouped bar graph  (if they chose a comparison of all census years) that visually illustrated the chosen information in a visually appealing and digestible way.
